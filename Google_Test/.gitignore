@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Wireshark temp/capture junk
+*.tmp
+*.bak
+*.pcapng~*
+
+# Logs
+*.log
+
+# IDEs / editors
+.vscode/
+.idea/
+*.swp
