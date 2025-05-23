@@ -1,4 +1,4 @@
-Google Wireshark Network Traffic Analysis
+## Google Wireshark Network Traffic Analysis
 
 This project analyzes real-world network traffic using a `.pcapng` capture file and a focused TCP stream extracted via Wireshark's "Follow TCP Stream" feature. It highlights protocol behavior including TCP handshakes, HTTP communication, and TLS negotiation.
 
