@@ -1,0 +1,37 @@
+Google Wireshark Network Traffic Analysis
+
+This project analyzes real-world network traffic using a `.pcapng` capture file and a focused TCP stream extracted via Wireshark's "Follow TCP Stream" feature. It highlights protocol behavior including TCP handshakes, HTTP communication, and TLS negotiation.
+
+## 🧰 Tools Used
+- Wireshark
+- macOS for capture environment
+
+## 🗂️ Project Structure
+wireshark-analysis/
+│
+├── README.md
+├── capture/
+│ └── googletest.pcapng
+├── analysis/
+│ ├── traffic_report.md
+│ └── googletest_TCPstream.pcapng
+└── LICENSE
+
+
+## 📦 Packet Capture
+- `googletest.pcapng`: The original capture file containing all packets.
+- `googletest_TCPstream.pcapng`: A capture of the TCP conversation (extracted using "Follow TCP Stream" in Wireshark), which may include HTTP requests or other text-based protocol data.
+
+## 🔍 Analysis Includes
+- TCP 3-way handshake
+- DNS query and response
+- TLS handshake initiation
+- HTTP GET request (if present)
+
+## 📚 Learning Outcomes
+- Understand and identify basic protocol flows
+- Follow individual TCP conversations
+- Use Wireshark to isolate meaningful traffic
+
+## 📄 License
+MIT
